@@ -32,3 +32,67 @@ header img{
     width: 18vw;
     cursor: pointer;
 }
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header li{
+    margin-right: 3vw;
+    font-size: 18vw;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.introdução{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introdução__texto{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introdução_imagem{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main--section_intro img{
+    width: 4ovw;
+}
+.main--section_intro h1{
+    width: 50%;
+    font-size: 3.7vw;
+    font-weight: bolder;
+}
+.plin{
+    height: 60vh;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: #6C63FF;
+}
+.formulário{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulário__box{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
