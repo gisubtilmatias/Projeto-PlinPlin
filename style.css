@@ -1,0 +1,34 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+header{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./imagem/Ellipse 2.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+}
+header nav{
+    width: 40%;
+}
+header div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+header img{
+    width: 18vw;
+    cursor: pointer;
+}
