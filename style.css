@@ -39,7 +39,7 @@ header ul{
 }
 header li{
     margin-right: 3vw;
-    font-size: 18vw;
+    font-size: 1.8vw;
     font-weight: lighter;
     cursor: pointer;
 }
@@ -130,9 +130,137 @@ span{
 }
 .enviar button{
     width: 36vw;
-
+    height: 12vh;
+    border-radius: 15px;
+    background-color: black;
+    color: #6C63FF;
+    font-size: 2.5vw;
+    font-weight: 700;
 }
+.texto__motivacional__box{
+    border: solid black 2px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.texto__motivacional__box p {
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding: 3vh 1.5vw;
+}
+footer{
+    width: 100%;
+    height: 65vh;
+    padding: 1vh 1vw;
+    background-color: #6C63FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+    margin-left: 5vw;
+}
+footer li{
+    margin-bottom: 1.5vh;
+    font-size: 2vw;
+    font-weight: 900;
+    cursor: pointer;
+}
+footer div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer img{
+    width: 23vw;
+}
+@media (max-width:500px){
+    footer{
+        height: 80vh;
+        flex-direction: column-reverse;
+        justify-content: right;
+    }
+    footer div{
+        height: 20%;
+    }
+    footer img{
+        width: 75vw;
+        margin-top: 10vh;
+    }
+    footer li{
+        font-size: 10vw;
+        text-align: center;
+    }
+    footer ul{
+        margin-top: 10vh;
+        margin-left: 0;
+    }
+    .submit{
+        margin-top: 0;
+        height: 40vh;
 
+    }
+    .submit button{
+        width: 70vw;
+        font-size: 8vw;
+    }
+    .form--text{
+        display: none;
+    }
+    .form--input input{
+        width:75vw ;
+    }
+    .form--input input::placeholder{
+        font-size: 5vw;
+        padding-left: 8vw;
+    }
+    .plin{
+        height: 30vh;
+        font-size: 8vw;
+    }
+    .main--section_intro{
+        height: 90vh;
+        flex-direction: column-reverse;
+    }
+    .main--section_intro img{
+        width: 80vw;
+    }
+    .intro--img{
+        width: 100%;
+        justify-content: center;
+    }
+    .main--section_intro h1{
+        font-size: 10vw;
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+    .intro--text{
+        width: 100%;
+    }
+    header{
+        height: 60vh;
+        background-size: 35vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    header ul{
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+    header li{
+        font-size: 7vw;
+        font-weight: lighter;
+        padding-bottom: 2vh;
+    }
+    header img{
+        width: 60vw;
+        margin-top: 5vh;
+    }
+}
 
 
 
